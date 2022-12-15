@@ -1,0 +1,9 @@
+[package]
+name = "Sui Gallery Minting Event"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+minting_event =  "0x0"
